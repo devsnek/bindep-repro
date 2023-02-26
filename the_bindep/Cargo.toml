@@ -1,0 +1,9 @@
+[package]
+name = "the_bindep"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pci-ids = "0.2"
+
+[build-dependencies]

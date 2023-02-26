@@ -1,0 +1,9 @@
+[package]
+name = "root"
+version = "0.1.0"
+
+[dependencies]
+the_bindep = { path = "the_bindep", artifact = "bin", target = "x86_64-unknown-none" }
+
+[workspace]
+members = ["the_bindep"]
